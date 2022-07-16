@@ -6,7 +6,7 @@
 //String(label="Threshold Method for Tissue Detection",choices={'Phansalkar','Mean','Otsu','Niblack', 'Sauvola'}) thresholdMethod
 
 
-//From a plant fluorescent microscopy images with cell wall in channel 1 and SCAMP in channel 2
+//From a plant fluorescent microscopy images with cell wall in channel 1 and GFP in channel 2
 //from a collection of manually annotated cells stored in the ROI Manager, detect the membrane and the cytoplasm
 //of each annotated cell and measure the top 10 percent mean intensty of the channel 2 in the detected membrane and cytoplasm
 //output a result table with the measurement, 1 row per cell and store the detected membrane and cytoplasm in the ROI Manager
